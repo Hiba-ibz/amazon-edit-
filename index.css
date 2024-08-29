@@ -1,0 +1,726 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F34606;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+/*----------- Navbar Custom Styling------------- */
+
+.navbar-brand .Amina {
+    color: #F34606; 
+}
+
+.navbar-toggler {
+    cursor: pointer; 
+}
+.navbar-brand .Hiba {
+    color: white; 
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+    font-size: 18px;
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F34606; 
+    border-bottom: 2px solid #F34606; 
+}
+
+.navbar-nav .custom-project {
+    color: #FFD700; 
+}
+
+.navbar-nav .custom-project:hover {
+    color: #FF4500;
+}
+
+/*------------------ Button Styling --------------------*/
+
+.contact-btn {
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-btn:hover {
+    background-color: #F34606;
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #F34606;
+}
+
+
+/*------------------first section start here---------------------------------*/
+
+.first-section-container{
+    display: flex;
+   gap: 7em;
+   min-height: 90vh;
+   width: 92%;
+   padding: 20px 40px 0 40px;
+   align-items: center;
+   
+}
+.bg-dark {
+    background-color: #000000 !important;
+}
+.image-section img{
+    width: 330px;
+    border-radius: 50%;
+}
+.content-section{
+    max-width: 800px;
+}
+.content-section span{
+    color: #F34606;
+}
+.content-section h1{
+    font-size: 63px;
+    line-height: 1.2;
+}
+.content-section h3{
+    font-size: 42px;
+}
+.content-section p{
+    font-size: 24px;
+    margin: 25px 0 30px;
+}
+
+.hire-btn{
+    background: transparent;
+    border-radius: 10px;color: white;
+    background-color: #F34606;
+    padding: 8px 16px 8px 16px;
+    border-color: white;
+}
+
+.hire-btn a{
+    text-decoration: none;  
+    color: white;
+    background-color: #F34606;
+    border-radius: 5px; 
+    font-size: 18px;
+}
+
+.hire-btn:hover ,.hire-btn:hover a{
+    background-color:  white;
+    color: black;
+    font-weight: 500;
+    border-color: black;
+}
+
+.experinc-btn{
+    background: transparent;
+    border-radius: 10px;color: white;
+    background-color: #F34606;
+    padding: 8px 16px 8px 16px;
+    margin-left: 80px;
+    border-color: white;
+}
+
+.experinc-btn a{
+    text-decoration: none;  
+    color: white;
+    background-color: #F34606;
+    border-radius: 5px; 
+    font-size: 18px;
+}
+
+
+    .experinc-btn:hover ,.experinc-btn:hover a{
+        background-color:  white;
+        color: black;
+        font-weight: 500;
+        border-color: black;
+    }
+    
+/*------------------second section start here---------------------------------*/
+
+.second-section{
+    display: flex;
+   gap: 5em;
+   min-height: 95vh;
+   background-color: #000000 !important;
+   padding: 20px 40px 0 40px;
+   text-align: justify;
+   align-items: center;
+}
+
+img.img-fluid.rounded-circle.shadow-lg {
+    width: 100%;
+    max-width: 330px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #F34606, 0 0 50px #F34606 !important;
+}
+
+
+.second-content-section h3{
+color: white;
+}
+.second-content-section h1{
+    color: white;
+    }
+    .second-content-section p{
+        color: white;
+        line-height: 28px;
+        
+        }
+
+
+        .experi-btn{
+            background: transparent;
+            border-radius: 10px;color: white;
+            background-color: #F34606;
+            padding: 8px 16px 8px 16px;
+            margin-top: 10px;
+            border-color: white;
+        }
+        
+        .experi-btn a{
+            text-decoration: none;  
+            color: white;
+            background-color: #F34606;
+            border-radius: 5px; 
+            font-size: 18px;
+        }
+        
+        
+            .experi-btn:hover ,.experi-btn:hover a, 
+            .submit-btn{
+                background-color:  white;
+                color: black;
+                font-weight: 500;
+                border-color: black;
+            }
+
+/*------------------Third section start here---------------------------------*/
+
+ .third-section{
+    text-align: center;
+    width: 100%;
+ }
+ .third-section h2{
+    text-align: center;
+    font-size: 36px;
+ }
+
+ .third-section form{
+   max-width: 50em;
+   margin: 1rem auto;
+   text-align: center;
+    margin-bottom: 3em;
+ }
+
+ .third-section form .input-box {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+ }
+
+ .form-container input{
+    gap: 7px;
+ }
+.third-section span{
+    color: #F34606;
+}
+
+ .third-section form .input-box input,
+ .third-section form textarea{
+    width: 70%;
+    padding: 1rem;
+    font-size: 14px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: .2rem 0;
+    resize: none;
+}
+
+.third-section form textarea{
+    padding: 1rem;
+}
+.submit-btn{
+    padding: 1rem 2rem;
+    border-radius: .8rem;cursor: pointer;
+}
+
+.submit-btn:hover {
+   color:  white;
+                background-color: black;
+                font-weight: 500;
+                border-color: black;
+ }
+/*-------------------fourth section start here-----------------------*/
+
+
+.fourth-section{
+    text-align: center;
+    min-height: auto;
+    width: 100%;
+ }
+
+ .fourth-section{
+    text-align: center;
+    min-height: auto;
+    width: 100%;
+ }
+
+
+.fourth-education {
+    text-align: center;
+    font-size: 36px;
+}
+
+.fourth-education span{
+    color: #F34606;
+    }
+    
+    .fourth-section .education-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-left: 3rem;
+    }
+    
+    .fourth-section .education-container .box{
+        width: 27rem;
+        margin: 4rem 1rem;
+        padding-left: 4rem;
+        border-left: .2rem solid #000000;
+        position: relative;
+    }
+    .fourth-section .education-container .box span{
+        font-size: 18px;
+        background-color: #F34606;
+        color: white;
+        border-radius: 5rem;
+        padding: .5rem 2.5rem;
+    }
+    
+    .fourth-section .education-container .box h3{
+        font-size: 18px;
+        color: #000000;
+        padding-top: 1.5rem;
+    }
+    
+    .fourth-section .education-container .box p{
+        font-size: 18px;
+        color: #000000;
+        padding-top: 1rem 0;
+    }
+    
+    .fourth-section .education-container .box i{
+        position: absolute;
+        right: 25.3rem;
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 2rem;
+        color: #000000;
+        background-color: #F34606;
+    }
+    
+    .text-center {
+        text-align: center !important;
+        align-items: center;
+        align-content: center;
+    }
+
+    img.img-fluid.rounded-circle {
+        width: 100%;
+        max-width: 330px;
+        height: auto;
+    }
+
+    .text-primary {
+         color: #F34606 !important;
+    }
+
+/*-------------fifth section start here------------------*/
+
+.fifth-section{
+    background-color: #000000;
+    text-align: center;
+   
+}
+.fifth-section span{
+    color: #F34606;
+}
+.fifth-section h2{
+    color: white;
+    font-size: 32px;
+}
+
+.service-info:hover img {
+    border-radius: 40px;
+    background-color: #000000;
+}
+.service-info:hover img[src*="icons8-smartphone-tablet-48.png"]{
+    padding: 15px;
+}
+.service-info:hover img[src*="icons8-curly-brackets-32.png"]{
+    padding: 24px;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+align-items: center;
+gap: 2.5rem;
+margin: 12px 32px;
+}
+
+.services-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F34606;
+    height: 450px;
+border-radius: 3rem;
+color: white;
+cursor: pointer;
+border: 5px solid transparent;
+transition: 0.4s ease-in-out;
+}
+
+.services-box:hover{
+    background-color: white;
+    color: #000000;
+border: 5px solid #000000;
+transform: scale(1.03);
+}
+
+.service-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+}
+.service-info i{
+    font-size: 18px;
+}
+.service-info h4{
+    font-size : 18px;
+    font-weight: 800;
+    margin: 2rem 0;
+}
+.service-info p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.container.d-flex.flex-column.flex-md-row.align-items-center {
+    gap: 2rem;
+}
+
+/*-------------footer start here------------------*/
+
+.footer{
+    text-align: center;
+    background-color: #000000;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+.footer p{
+    font-size: 10px;
+    color: white;
+   }
+
+.first-foot img[src*="icons8-facebook-30.png"]{
+    width: 24px;
+    position: static;
+    margin-top: 24px;
+    margin-right: 30px;
+   }
+
+   .first-foot img[src*="icons8-linkedin-30.png"]{
+    width: 24px;
+    position: static;
+    margin-top: 24px;
+    margin-right: 30px;
+   }
+
+   .first-foot img[src*="icons8-twitter-30.png"]{
+    width: 24px;
+    position: static;
+    margin-top: 24px;
+    margin-right: 30px;
+   }
+
+   .first-foot img[src*="icons8-instagram-50.png"]{
+    width: 22px;
+    position: static;
+    margin-top: 24px;
+    margin-right: 30px;
+   }
+.first-foot a:hover img{
+    border: #F34606;
+    box-shadow: 0 0 23px #F34606,
+    20px 20px 50px #F34606;
+    border-radius: 50%;
+    border: 20px #F34606;
+}
+.second-foot{
+    margin-bottom: 10px;
+}
+.second-foot a{
+    margin-right: 34px;
+}
+.foot-content:hover{
+   color: #F34606;
+   text-decoration: underline;
+}
+.foot-content{
+    padding-bottom: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.first-section, .second-section, .fourth-section, .fifth-section, .third-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.first-section .text-primary {
+    color: #F34606;
+}
+
+.hire-btn, .experinc-btn, .submit-btn {
+    background-color: #F34606;
+    color: white;
+    border: none;
+}
+
+.hire-btn:hover, .experinc-btn:hover, .submit-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.second-section img {
+    width: 100%;
+    max-width: 330px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #F34606, 0 0 50px #F34606;
+}
+
+.fourth-section .box {
+    border-left: 2px solid #F34606 !important;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.fourth-section .box img {
+    height: 50px;
+    width: 50px;
+    background-color: #F34606;
+}
+
+.services-box {
+    background-color: #F34606;
+    color: white;
+    border: 5px solid transparent;
+    transition: transform 0.4s ease-in-out;
+}
+
+.services-box:hover {
+    background-color: white;
+    color: #000000;
+    border: 5px solid #000000;
+    transform: scale(1.03);
+}
+
+.footer img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+.footer .foot-content:hover {
+    color: #F34606;
+    text-decoration: underline;
+}
+
+
+/*-------fifth section--------/
+
+
+/*-------------fifth section start here------------------*/
+
+.fifth-section{
+    background-color: #000000;
+    text-align: center;
+   
+}
+.fifth-section span{
+    color: #F34606;
+}
+.fifth-section h2{
+    color: white;
+    font-size: 32px;
+}
+
+.service-info:hover img {
+    border-radius: 40px;
+    background-color: #000000;
+}
+.service-info:hover img[src*="icons8-smartphone-tablet-48.png"]{
+    padding: 15px;
+}
+.service-info:hover img[src*="icons8-curly-brackets-32.png"]{
+    padding: 24px;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+align-items: center;
+gap: 2.5rem;
+margin: 12px 32px;
+}
+
+.services-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F34606;
+    
+border-radius: 3rem;
+color: white;
+cursor: pointer;
+border: 5px solid transparent;
+transition: 0.4s ease-in-out;
+}
+
+.services-box:hover{
+    background-color: white;
+    color: #000000;
+border: 5px solid #000000;
+transform: scale(1.03);
+}
+
+.service-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+}
+.service-info i{
+    font-size: 18px;
+}
+.service-info h4{
+    font-size : 18px;
+    font-weight: 800;
+    margin: 2rem 0;
+}
+.service-info p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/*--contact session ---------*/
+
+.third-section{
+    text-align: center;
+    width: 100%;
+ }
+ .third-section h2{
+    text-align: center;
+    font-size: 36px;
+ }
+
+ .third-section form{
+   max-width: 50em;
+   margin: 1rem auto;
+   text-align: center;
+    margin-bottom: 3em;
+ }
+
+ .third-section form .input-box {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+ }
+
+ .form-container input{
+    gap: 7px;
+ }
+.third-section span{
+    color: #F34606;
+}
+
+ .third-section form .input-box input,
+ .third-section form textarea{
+    width: 70%;
+    padding: 1rem;
+    font-size: 14px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: .2rem 0;
+    resize: none;
+}
+
+.third-section form textarea{
+    padding: 1rem;
+}
+.submit-btn{
+    padding: 1rem 2rem;
+    border-radius: .8rem;cursor: pointer;
+}
+
+.submit-btn:hover {
+   color:  white;
+                background-color: black;
+                font-weight: 500;
+                border-color: black;
+ }
+
+ .btn-primary {
+    color: #fff;
+    background-color: #F34606;
+    border-color: #F34606;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
